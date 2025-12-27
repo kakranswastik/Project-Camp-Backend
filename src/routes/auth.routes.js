@@ -9,3 +9,6 @@ router.route("/register").post(userRegisterValidator(),validate,registerUser);
 router.route("/login").post(login);
 
 export default router;
+function abc(){
+    //dfs
+}
